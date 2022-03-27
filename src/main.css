@@ -1,0 +1,19 @@
+* {
+  font-family: flatwave-body, arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  overflow: auto;
+}
+
+body {
+  background-image: linear-gradient(#ee306b, #f47a49);
+  font-size: 13px;
+  color: #ffffff;
+}
