@@ -16,18 +16,25 @@
 </head>
 
 <body>
-  <header>
+  <header class="container">
     <p>Hello world!</p>
   </header>
 
-  <main>
-    <div>
-      <button type="button" class="btn btn-warning" onclick="calcModule.calcFactorial(5)">Calc factorial!</button>
-      <span class="factorial"></span>
+  <main class="container">
+    <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-warning" onclick="calcModule.calcFactorial(5)">Calc factorial!</button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <span class="factorial"></span>
+      </div>
     </div>
   </main>
 
-  <footer>
+  <footer class="container">
     <a target="_blank" href="https://git-init.com">git-init.com</a>
   </footer>
 </body>
