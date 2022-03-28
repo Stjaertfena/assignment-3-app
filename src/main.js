@@ -5,8 +5,14 @@
    * @return {Integer} Factorial value
    */
   function getFactorial(value) {
-    // TODO: Write function body that recursively calculates factorial of provided value
-    return value;
+      // Base case, target reached
+      if (value < 2) {
+        return 1;
+
+      // Recursive case, continue recursion
+      } else {
+        return value * getFactorial(value - 1);
+      }
   }
 
   var publicAPI = {
