@@ -18,6 +18,19 @@ body {
   color: #ffffff;
 }
 
+.title {
+  font-size: 24pt;
+}
+
 footer {
   text-align: center;
+  margin: 20px 0;
+}
+
+.factorial {
+  font-size: 13pt;
+}
+
+.calc-button::hover {
+  color: #FFC107;
 }
