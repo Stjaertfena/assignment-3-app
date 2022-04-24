@@ -38,3 +38,7 @@ footer {
 .calc-button:hover {
   color: #FFC107;
 }
+
+.list {
+  font-size: 14pt;
+}
