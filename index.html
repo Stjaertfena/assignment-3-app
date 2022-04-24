@@ -11,23 +11,20 @@
   <link rel="stylesheet" href="src/main.css">
   <script src="src/main.js"></script>
 
-  <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
   <header class="container">
-    <p>Hello world!</p>
+    <p class="title">Factorial calculator!</p>
   </header>
 
   <main class="container">
     <div class="row">
       <div class="col">
-        <button type="button" class="btn btn-warning" onclick="calcModule.calcFactorial(5)">Calc factorial!</button>
+        <button type="button" class="btn btn-warning calc-button" onclick="calcModule.calcFactorial(5)">Calc: 5!</button>
       </div>
-    </div>
 
-    <div class="row">
       <div class="col">
         <span class="factorial"></span>
       </div>
