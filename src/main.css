@@ -31,6 +31,10 @@ footer {
   font-size: 13pt;
 }
 
-.calc-button::hover {
+.meme {
+  margin: 15px 0;
+}
+
+.calc-button:hover {
   color: #FFC107;
 }
